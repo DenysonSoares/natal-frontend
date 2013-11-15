@@ -1,0 +1,325 @@
+/*
+We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+However, this blank file is available if you prefer
+*/
+
+	/*INICIO - HEADER*/
+
+.top{
+	background-color: #ffffff;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	z-index: 9999;
+}
+header{
+	background-color: #ffffff;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	z-index: 9999;
+}
+.titulo{
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	margin-top: 15px;
+}
+.titulo h3{
+	text-align: center;
+	font-family: tahoma;
+	text-transform: uppercase;
+}
+.conteudo{
+	margin-top: 54px;
+}
+
+	/*FIM - HEADER*/
+
+	/*INICIO - CENARIO*/
+
+.parede{
+	height: 476px;
+	background-color: #F2F2A0;
+}
+.ceramica{
+	height: 30px;
+	background-color: #ffffff;
+	border-top: 2px solid #6E6963;
+}
+.ceramica ul li{
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	display: inline-block;
+	border-left: 1px solid #6E6963;
+}
+.ceramica ul li:last-child{
+	border-right: 1px solid #6E6963;
+}
+.carpet{
+	width: 100%;
+	height: 200px;
+}
+.taboa-carpet-1{
+	height: 40px;
+	background-color: #B5673E;
+}
+.taboa-carpet-2{
+	height: 40px;
+	background-color: #965939;
+}
+
+	/*FIM - CENARIO*/
+
+	/*INICIO - JANELA*/
+.janela{
+	width: 300px;
+	height: 250px;
+	background-color: #0F0F33;
+	margin-top: 50px;
+	border: 10px solid #ffffff;
+}
+.barra-horizontal{
+	height: 10px;
+	width: 285px;
+	background-color: #ffffff;
+}
+.reflexo-1{
+	width: 280px;
+	height: 130px;
+	background-color: #8B8B99;
+	opacity: 0.30;
+}
+.trinco{
+	width: 25px;
+	height: 10px;
+	background-color: #969412;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-left: 130px;
+}
+.fechadura{
+	width: 25px;
+	height: 7px;
+	background-color: #969412;
+	margin-top: 90px;
+	margin-left: 130px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+	/*FIM - JANELA*/
+
+	/*INICIO - BOTINHA*/
+.botinha{
+	margin-top: -87px;
+}
+.parte-1{
+	width: 70px;
+	height: 70px;
+}
+.barra{
+	width: 40px;
+	height: 20px;
+	background-color: #ffffff;
+	float: left;
+}
+.bola-esquerda{
+	width: 20px;
+	height: 25px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: -7px;
+}
+.bola-direita{
+	width: 20px;
+	height: 25px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 27px;
+}
+.bola-central{
+	width: 20px;
+	height: 25px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 10px;
+}
+.parte-2{
+	width: 40px;
+	height: 80px;
+	background-color: #FF0000;
+	border-bottom-left-radius: 50%;
+}
+.parte-3{
+	width: 40px;
+	height: 35px;
+	background-color: #FF0000;
+	margin-left: 30px;
+	margin-top: -35px;
+	border-bottom-right-radius: 7px;
+	border-top-right-radius: 50%;
+}
+	/*FIM - BOTINHA*/
+
+	/*INICIO - PORTA RETRATOS*/
+.porta-retrato-1{
+	width: 80px;
+	height: 80px;
+	background-color: #FF8400;
+	margin-top: 130px;
+	border: 7px solid #D1C579;
+	float: left;
+	margin-left: 20px
+}
+.porta-retrato-2{
+	width: 80px;
+	height: 80px;
+	background-color: #729DED;
+	margin-top: 90px;
+	border: 7px solid #D1C579;
+	float: left;
+	margin-left: 20px;
+}
+.porta-retrato-1 h1{
+	color: #ffffff;
+	text-align: center;
+	margin-top: -27px;
+	font-family: cursive;
+}
+.porta-retrato-2 h1{
+	color: #ffffff;
+	text-align: center;
+	margin-top: -27px;
+	font-family: cursive;
+}
+	/*FIM - PORTA RETRATOS*/
+
+	/*INICIO - ARVORE*/
+.corpo-arvore{
+	z-index: 9999;
+	margin-top: 360px;
+}
+.base{
+	margin-left: 80px;
+	margin-top: -20px;
+}
+.haste-1{
+	width: 220px;
+	height: 50px;
+	background-color: #000000;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	-webkit-transform: skewY(-20deg);
+	-moz-transform: skewY(-20deg);
+	-o-transform: skewY(-20deg);
+	margin-top: 50px;
+}
+.haste-2{
+	width: 220px;
+	height: 50px;
+	background-color: #000000;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
+	-webkit-transform: skewY(20deg);
+	-moz-transform: skewY(20deg);
+	-o-transform: skewY(20deg);
+	margin-top: -50px;
+}
+.haste-central{
+	width: 40px;
+	height: 60px;
+	background-color: #000000;
+	position: absolute;
+	margin-left: 90px;
+	margin-top: -80px;
+}
+.camada-1{
+	width: 400px;
+	height: 150px;
+	background-color: #0A361D;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 60%;
+}
+.camada-2{
+	position: absolute;
+	width: 350px;
+	height: 140px;
+	background-color: #0E4526;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 60%;
+	margin-left: 25px;
+	margin-top: -60px;
+}
+.camada-3{
+	position: absolute;
+	width: 290px;
+	height: 120px;
+	background-color: #0F4D2A;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 60%;
+	margin-left: 55px;
+	margin-top: -120px;
+	z-index: 5555;
+}
+.camada-4{
+	position: absolute;
+	width: 230px;
+	height: 100px;
+	background-color: #11542E;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 60%;
+	margin-left: 85px;
+	margin-top: -160px;
+	z-index: 6666;
+}
+.camada-5{
+	position: absolute;
+	width: 170px;
+	height: 80px;
+	background-color: #135E34;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 60%;
+	margin-left: 115px;
+	margin-top: -195px;
+	z-index: 7777;
+}
+.camada-6{
+	position: absolute;
+	width: 120px;
+	height: 70px;
+	background-color: #19693C;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 80%;
+	border-top-right-radius: 80%;
+	margin-left: 140px;
+	margin-top: -225px;
+	z-index: 8888;
+}
+.camada-7{
+	position: absolute;
+	width: 60px;
+	height: 50px;
+	background-color: #1D7543;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 80%;
+	border-top-right-radius: 80%;
+	margin-left: 170px;
+	margin-top: -255px;
+	z-index: 9999;
+}
+	/*FIM - ARVORE*/

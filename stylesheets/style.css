@@ -59,7 +59,7 @@ header{
 	/*INICIO - CENARIO*/
 
 .parede{
-	height: 476px;
+	height: 500px;
 	background-color: #F2F2A0;
 }
 .ceramica{
@@ -110,6 +110,26 @@ header{
 	height: 130px;
 	background-color: #8B8B99;
 	opacity: 0.30;
+}
+.lua-1{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	float: right;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+.lua-2{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #8B8B99;
+	float: right;
+	margin-top: 25px;
+	margin-left: 140px;
+	position: absolute;
+	z-index: 3333;
 }
 .trinco{
 	width: 25px;
@@ -221,7 +241,7 @@ header{
 	/*INICIO - ARVORE*/
 .corpo-arvore{
 	z-index: 9999;
-	margin-top: 360px;
+	margin-top: 390px;
 }
 .base{
 	margin-left: 80px;
@@ -289,7 +309,7 @@ header{
 	border-top-right-radius: 60%;
 	margin-left: 55px;
 	margin-top: -120px;
-	z-index: 5555;
+	z-index: 2233;
 }
 .camada-4{
 	position: absolute;
@@ -302,7 +322,7 @@ header{
 	border-top-right-radius: 60%;
 	margin-left: 85px;
 	margin-top: -160px;
-	z-index: 6666;
+	z-index: 3344;
 }
 .camada-5{
 	position: absolute;
@@ -343,6 +363,146 @@ header{
 	margin-top: -255px;
 	z-index: 9998;
 }
+.bolinha-1{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #CC0202;
+	position: absolute;
+	margin-top: 10px;
+}
+.bolinha-2{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #DEB500;
+	position: absolute;
+	margin-left: 70px;
+	margin-top: -20px;
+}
+.bolinha-3{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #CC0202;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 130px;
+}
+.bolinha-4{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #CC0202;
+	position: absolute;
+	margin-left: 190px;
+	margin-top: -10px;
+}
+.bolinha-5{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #DEB500;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 270px;
+}
+.bolinha-6{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #DEB500;
+	position: absolute;
+	margin-left: 340px;
+	margin-top: -20px;
+}
+.bolinha-7{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #CC0202;
+	position: absolute;
+	margin-top: 10px;
+}
+.bolinha-8{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #DEB500;
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 50px;
+	z-index: ;
+}
+.bolinha-9{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #CC0202;
+	position: absolute;
+	margin-left: 190px;
+	margin-top: 50px;
+	z-index: ;
+}
+.bolinha-10{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #DEB500;
+	position: absolute;
+	margin-left: 235px;
+}
+.bolinha-11{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #CC0202;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: -20px;
+}
+.bolinha-12{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #DEB500;
+	position: absolute;
+	margin-top: 65px;
+	margin-left: 50px;
+}
+.bolinha-13{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #DEB500;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 130px;
+}
+.corpo-estrela{
+	margin-top: -80px;
+	margin-left: -20px;
+}
+.estrela {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #FCF64C;
+	position: relative;
+}
+.estrela:after {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid #FCF64C;
+	position: absolute;
+	content: "";
+	top: 30px;
+	left: -50px;
+}
+
 	/*FIM - ARVORE*/
 
 	/*INICIO - FOOTER*/
